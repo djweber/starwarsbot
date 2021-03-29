@@ -12,8 +12,6 @@ bot = commands.Bot(command_prefix="?")
 
 cache = {}
 
-base_url = os.environ["BASE_URL"]
-
 
 @bot.event
 async def on_ready():
